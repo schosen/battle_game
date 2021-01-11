@@ -1,5 +1,6 @@
 require "capybara/rspec"
 require_relative "../../app"
+require_relative "web_helpers"
 
 Capybara.app = Battle
 
